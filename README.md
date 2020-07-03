@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  Personal website
+  My own personal website
 </p>
 
 <p align="center">
