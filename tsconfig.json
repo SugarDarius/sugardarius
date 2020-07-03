@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "module": "commonjs",
+        "target": "ES5",
+        "moduleResolution": "node",
+        "outDir": "./build",
+        "declaration": false,
+        "jsx": "react",
+        "lib": ["DOM", "ESNext"]
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [ "node_modules" ]
+}
