@@ -52,7 +52,7 @@ export default function IndexPage(): React.ReactElement {
 						textAlign={['center', 'left']}
 					>
 						Aurélien Dupays Dexemple,<br />
-						I'm a Senior Full Stack (Creative) Developer
+						I'm a Senior Full Stack (Creative) Developer.
 					</Heading>
 					<Flex
 						position='relative'

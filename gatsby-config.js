@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
 		title: `Aurélien Dupays Dexemple`,
-		description: `Hello, I'm Aurélien Dupays Dexemple and this is my personal website`,
+		description: `Hello, I'm Aurélien Dupays Dexemple and this is my personal website.`,
 		author: `Aurélien Dupays Dexemple`,
 	},
 	plugins: [
@@ -21,12 +21,5 @@ module.exports = {
 				icon: `src/favicon/favicon.ico`
 			}
 		},
-		{
-			resolve: `gatsby-source-filesystem`,
-			options: {
-				name: `content`,
-				path: `${__dirname}/content`
-			},
-		}
 	],
 }

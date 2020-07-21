@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img width="200" align="center" src="./medias/img/logo.png" />
+  <img width="200" align="center" src="https://github.com/SugarDarius/sugardarius/blob/master/medias/img/logo.png" />
 </p>
 
 <p align="center">
