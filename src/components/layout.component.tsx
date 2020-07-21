@@ -3,16 +3,15 @@ import {
     ThemeProvider, 
     ColorModeProvider,
     CSSReset,
-    theme
 } from "@chakra-ui/core";
 
 import '../icons/library';
 
 export function Layout({ children }) {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider>
             <CSSReset />
-            <ColorModeProvider value='dark'>
+            <ColorModeProvider>
                 {children}
             </ColorModeProvider>
         </ThemeProvider>

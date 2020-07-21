@@ -8,6 +8,7 @@ import {
     faMedium,
     faDev
 } from '@fortawesome/free-brands-svg-icons';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
     faBehance,
@@ -15,5 +16,6 @@ library.add(
     faTwitter,
     faGithub,
     faMedium,
-    faDev
+    faDev,
+    faHome
 );

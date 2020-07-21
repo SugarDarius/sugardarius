@@ -19,13 +19,13 @@ export default function IndexPage(): React.ReactElement {
 			<Meta title='Hello!' />
 			<Flex
 				position='relative'
-				direction='row'
+				direction={['column', 'row']}
 				width='100vw'
 				height='100vh'
 				alignItems='center'
 				justifyContent='center'
 			>
-				<Flex position='relative' mr='0.625rem'>
+				<Flex position='relative' mr={[0, '0.625rem']} mb={['0.625rem', 0]}>
 					<Image
 						objectFit='cover'
 						src='/images/logo.png'
@@ -36,9 +36,15 @@ export default function IndexPage(): React.ReactElement {
 				<Flex 
 					position='relative'
 					direction='column'
+					padding={['0 0.625rem', 0]}
 				>
-					<Heading as='h1' fontWeight={300}>
-						Aurélien Dupays Dexemple<br />
+					<Heading 
+						as='h1'
+						fontSize={['md', '1.875rem']}
+						fontWeight={300}
+						textAlign={['center', 'left']}
+					>
+						Aurélien Dupays Dexemple,<br />
 						I'm a Senior Full Stack (Creative) Developer
 					</Heading>
 					<Flex
@@ -51,7 +57,7 @@ export default function IndexPage(): React.ReactElement {
 						<Stack
 							direction='row'
 							alignItems='center'
-							spacing='1.5rem'
+							spacing={['1.250rem', '1.5rem']}
 						>
 							<Link
 								href='https://www.linkedin.com/in/aureliendupaysdexemple/'
@@ -100,6 +106,7 @@ export default function IndexPage(): React.ReactElement {
 								<FontAwesomeIcon
 									icon={['fab', 'behance']}
 									size='2x'
+									color='#1769ff'
 								/>
 							</Link>
 
@@ -110,6 +117,7 @@ export default function IndexPage(): React.ReactElement {
 								<FontAwesomeIcon
 									icon={['fab', 'twitter']}
 									size='2x'
+									color='#1DA1F2'
 								/>
 							</Link>
 						</Stack>
