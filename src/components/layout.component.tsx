@@ -3,15 +3,18 @@ import {
     ThemeProvider, 
     ColorModeProvider,
     CSSReset,
+    theme,
 } from "@chakra-ui/core";
 
 import '../icons/library';
+import { usePrefersColorScheme } from '../hooks';
 
 export function Layout({ children }) {
+    const prefersColorSchme = usePrefersColorScheme();
     return (
-        <ThemeProvider>
+        <ThemeProvider theme={theme}>
             <CSSReset />
-            <ColorModeProvider>
+            <ColorModeProvider value={prefersColorSchme}>
                 {children}
             </ColorModeProvider>
         </ThemeProvider>

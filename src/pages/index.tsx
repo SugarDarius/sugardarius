@@ -5,6 +5,10 @@ import {
 	Image,
 	Stack,
 	Link,
+	Box,
+	IconButton,
+	Tooltip,
+	useColorMode,
 } from '@chakra-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -14,6 +18,9 @@ import {
 } from '../components';
 
 export default function IndexPage(): React.ReactElement {
+	const { colorMode, toggleColorMode } = useColorMode();
+	const isDarkMode = colorMode === 'dark';
+
 	return (
 		<Layout>
 			<Meta title='Hello!' />
@@ -123,6 +130,27 @@ export default function IndexPage(): React.ReactElement {
 						</Stack>
 					</Flex>
 				</Flex>
+				<Box
+					position='absolute'
+					bottom='1.25rem'
+					right='1.25rem'
+					width='auto'
+					height='auto'
+					backgroundColor='red'
+				>
+					<Tooltip
+						hasArrow
+						label={`Use ${isDarkMode ? 'light' : 'dark'} mode`}
+						placement='left'
+						aria-label={`Use ${isDarkMode ? 'light' : 'dark'} mode`}
+					>
+						<IconButton
+							icon={isDarkMode ? 'sun' : 'moon'}
+							onClick={toggleColorMode}
+							aria-label='Toggle Color Scheme mode button' 
+						/>
+					</Tooltip>
+				</Box>
 			</Flex>
 		</Layout>
 	);
