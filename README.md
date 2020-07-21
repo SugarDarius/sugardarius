@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  My own personal website
+  My own personal GitHub page
 </p>
 
 <p align="center">
@@ -18,7 +18,4 @@
 
 ## Greetings
 Hello,<br />
-I'm Aurélien Dupays Dexemple, a Senior Full Stack (Creative) Developer and this is my personnal website.
-
-## Description 
-This website is build with [Gatsby](https://www.gatsbyjs.org/).
+I'm Aurélien Dupays Dexemple, a Senior Full Stack (Creative) Developer and this is my personnal GitHub Page.
