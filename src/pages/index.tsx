@@ -2,7 +2,6 @@ import * as React from 'react';
 import { 
 	Flex,
 	Heading,
-	Image,
 	Stack,
 	Link,
 	Box,
@@ -16,14 +15,21 @@ import {
 	Layout,
 	Meta,
 } from '../components';
+import { useSite } from '../hooks';
 
 export default function IndexPage(): React.ReactElement {
+	const site = useSite();
+
 	const { colorMode, toggleColorMode } = useColorMode();
 	const isDarkMode = colorMode === 'dark';
 
 	return (
 		<Layout>
-			<Meta title='Hello!' />
+			<Meta
+				title='Hello!'
+				titleTemplate={site.siteMetadata.title}
+				description={site.siteMetadata.description}
+			/>
 			<Flex
 				position='relative'
 				direction={['column', 'row']}
@@ -33,11 +39,11 @@ export default function IndexPage(): React.ReactElement {
 				justifyContent='center'
 			>
 				<Flex position='relative' mr={[0, '0.625rem']} mb={['0.625rem', 0]}>
-					<Image
-						objectFit='cover'
+					<img
 						src='/images/logo.png'
 						alt='Aurélien Dupays Dexemple logo'
 						width='180px'
+						style={{ objectFit: 'cover' }}
 					/>
 				</Flex>
 				<Flex 

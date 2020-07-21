@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import { Flex, Image, Link as CLink, Button } from '@chakra-ui/core';
+import { Flex, Link as CLink, Button } from '@chakra-ui/core';
 
 import { 
 	Layout,
@@ -19,13 +19,14 @@ export default function NotFoundPage(): React.ReactElement {
 				alignItems='center'
 				justifyContent='center'
 			>
-				<Image
-					objectFit='cover'
+				<img
 					src='/images/not-found-illu.png'
 					alt='404 Not Found illustration'
-					width={['90%', '50%']}
+					width='75%'
+					style={{ objectFit: 'cover' }}
 				/>
-				<CLink 
+				<CLink
+					// @ts-ignore
 					as={Link} 
 					to='/' 
 					mt='1rem'

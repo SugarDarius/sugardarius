@@ -1,24 +1,14 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
-import { useStaticQuery, graphql } from 'gatsby';
 
 export type MetaProps = {
     title: string;
+    titleTemplate?: string;
+    description?: string;
 };
 
 export function Meta(props: React.PropsWithChildren<MetaProps>) {
-    const { title } = props;
-    const { site } = useStaticQuery(graphql`
-        query {
-            site {
-                siteMetadata {
-                    title
-                    description
-                    author
-                }
-            }
-        }
-    `);
+    const { title, titleTemplate, description } = props;
 
     return (
         <Helmet
@@ -26,11 +16,11 @@ export function Meta(props: React.PropsWithChildren<MetaProps>) {
                 lang: 'en',
             }}
             title={title}
-            titleTemplate={`%s - ${site.siteMetadata.title}`}
+            titleTemplate={`%s - ${titleTemplate || ''}`}
             meta={[
                 {
                     name: 'description',
-                    content: site.siteMetadata.description
+                    content: description || ''
                 }
             ]}
         />

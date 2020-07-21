@@ -1,5 +1,6 @@
 module.exports = {
 	siteMetadata: {
+		siteUrl: 'http://aureliendupaysdexemple.com',
 		title: `Aurélien Dupays Dexemple`,
 		description: `Hello, I'm Aurélien Dupays Dexemple and this is my personal website.`,
 		author: `Aurélien Dupays Dexemple`,
