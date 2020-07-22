@@ -42,8 +42,11 @@ export default function IndexPage(): React.ReactElement {
 					<img
 						src='/images/logo.png'
 						alt='Aurélien Dupays Dexemple logo'
-						width='180px'
-						style={{ objectFit: 'cover' }}
+						style={{
+							width: '180px',
+							height: '180px',
+							objectFit: 'cover' 
+						}}
 					/>
 				</Flex>
 				<Flex 
