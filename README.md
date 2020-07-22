@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://aureliendupaysdexemple.com/">Aurélien Dupays Dexemple</a>
+  <a href="https://aureliendupaysdexemple.com/" target="_blank">Aurélien Dupays Dexemple</a>
 </h1>
 
 <p align="center">
