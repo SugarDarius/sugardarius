@@ -35,30 +35,35 @@ export default function IndexPage(): React.ReactElement {
 		{
 			id: 'linkedin',
 			href: 'https://www.linkedin.com/in/aureliendupaysdexemple/',
+			alt: 'LinkedIn - Aurélien Dupays Dexemple', 
 			isExternal: true,
 			icon: ['fab', 'linkedin-in']
 		},
 		{
 			id: 'github',
 			href: 'https://github.com/SugarDarius',
+			alt: 'GitHub - Aurélien Dupays Dexemple',
 			isExternal: true,
 			icon: ['fab', 'github']
 		},
 		{
 			id: 'dev',
 			href: 'https://dev.to/azeldvin',
+			alt: 'DEV - Aurélien Dupays Dexemple',
 			isExternal: true,
 			icon: ['fab', 'dev']
 		},
 		{
 			id: 'medium',
 			href: 'https://medium.com/@aureliendupdex',
+			alt: 'Medium - Aurélien Dupays Dexemple',
 			isExternal: true,
 			icon: ['fab', 'medium']
 		},
 		{
 			id: 'behance',
 			href: 'https://www.behance.net/dupaysaurec9ea',
+			alt: 'Behance - Aurélien Dupays Dexemple',
 			isExternal: true,
 			icon: ['fab', 'behance'],
 			color: '#1769ff'
@@ -66,6 +71,7 @@ export default function IndexPage(): React.ReactElement {
 		{
 			id: 'twitter',
 			href: 'https://twitter.com/azeldvin',
+			alt: 'Twitter - Aurélien Dupays Dexemple',
 			isExternal: true,
 			icon: ['fab', 'twitter'],
 			color: '#1DA1F2'
