@@ -21,15 +21,17 @@ import { useSite } from '../hooks';
 
 export default function IndexPage(): React.ReactElement {
 	const site = useSite();
-
 	const { colorMode, toggleColorMode } = useColorMode();
+
 	const [isDarkMode, setDarkState] = React.useState<boolean>(false);
+
 	React.useEffect(() => {
 		setDarkState(colorMode === 'dark');
 	}, [colorMode]);
 
 	// gatsby build issue workaround with chakra-ui
 	const WrapperColorSchemeMode = isDarkMode ? DarkMode : LightMode;
+	const iconDarkModeBaseColor = '#ffffff';
 
 	const links = [
 		{
@@ -38,28 +40,31 @@ export default function IndexPage(): React.ReactElement {
 			alt: 'LinkedIn - Aurélien Dupays Dexemple', 
 			isExternal: true,
 			icon: ['fab', 'linkedin-in'],
-			color: '#2867B2'
+			color: isDarkMode ? iconDarkModeBaseColor : '#2867B2',
 		},
 		{
 			id: 'github',
 			href: 'https://github.com/SugarDarius',
 			alt: 'GitHub - Aurélien Dupays Dexemple',
 			isExternal: true,
-			icon: ['fab', 'github']
+			icon: ['fab', 'github'],
+			color: isDarkMode ? iconDarkModeBaseColor : '#181717',
 		},
 		{
 			id: 'dev',
 			href: 'https://dev.to/azeldvin',
 			alt: 'DEV - Aurélien Dupays Dexemple',
 			isExternal: true,
-			icon: ['fab', 'dev']
+			icon: ['fab', 'dev'],
+			color: isDarkMode ? iconDarkModeBaseColor : '#0A0A0A',
 		},
 		{
 			id: 'medium',
 			href: 'https://medium.com/@aureliendupdex',
 			alt: 'Medium - Aurélien Dupays Dexemple',
 			isExternal: true,
-			icon: ['fab', 'medium']
+			icon: ['fab', 'medium'],
+			color: isDarkMode ? iconDarkModeBaseColor : '#12100E',
 		},
 		{
 			id: 'behance',
@@ -67,7 +72,7 @@ export default function IndexPage(): React.ReactElement {
 			alt: 'Behance - Aurélien Dupays Dexemple',
 			isExternal: true,
 			icon: ['fab', 'behance'],
-			color: '#1769ff'
+			color: '#1769ff',
 		},
 		{
 			id: 'twitter',
@@ -75,7 +80,7 @@ export default function IndexPage(): React.ReactElement {
 			alt: 'Twitter - Aurélien Dupays Dexemple',
 			isExternal: true,
 			icon: ['fab', 'twitter'],
-			color: '#1DA1F2'
+			color: '#1DA1F2',
 		},
 	];
 
