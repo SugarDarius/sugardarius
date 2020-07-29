@@ -10,11 +10,12 @@ import '../icons/library';
 import { usePrefersColorScheme } from '../hooks';
 
 export function Layout({ children }) {
-    const prefersColorSchme = usePrefersColorScheme();
+    const prefersColorScheme = usePrefersColorScheme();
+    
     return (
         <ThemeProvider theme={theme}>
-            <CSSReset />
-            <ColorModeProvider value={prefersColorSchme}>
+             <CSSReset />
+            <ColorModeProvider value={prefersColorScheme}>
                 {children}
             </ColorModeProvider>
         </ThemeProvider>

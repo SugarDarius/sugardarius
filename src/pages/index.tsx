@@ -7,6 +7,8 @@ import {
 	Box,
 	IconButton,
 	Tooltip,
+	DarkMode,
+	LightMode,
 	useColorMode,
 } from '@chakra-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -21,7 +23,54 @@ export default function IndexPage(): React.ReactElement {
 	const site = useSite();
 
 	const { colorMode, toggleColorMode } = useColorMode();
-	const isDarkMode = colorMode === 'dark';
+	const [isDarkMode, setDarkState] = React.useState<boolean>(false);
+	React.useEffect(() => {
+		setDarkState(colorMode === 'dark');
+	}, [colorMode]);
+
+	// gatsby build issue workaround with chakra-ui
+	const WrapperColorSchemeMode = isDarkMode ? DarkMode : LightMode;
+
+	const links = [
+		{
+			id: 'linkedin',
+			href: 'https://www.linkedin.com/in/aureliendupaysdexemple/',
+			isExternal: true,
+			icon: ['fab', 'linkedin-in']
+		},
+		{
+			id: 'github',
+			href: 'https://github.com/SugarDarius',
+			isExternal: true,
+			icon: ['fab', 'github']
+		},
+		{
+			id: 'dev',
+			href: 'https://dev.to/azeldvin',
+			isExternal: true,
+			icon: ['fab', 'dev']
+		},
+		{
+			id: 'medium',
+			href: 'https://medium.com/@aureliendupdex',
+			isExternal: true,
+			icon: ['fab', 'medium']
+		},
+		{
+			id: 'behance',
+			href: 'https://www.behance.net/dupaysaurec9ea',
+			isExternal: true,
+			icon: ['fab', 'behance'],
+			color: '#1769ff'
+		},
+		{
+			id: 'twitter',
+			href: 'https://twitter.com/azeldvin',
+			isExternal: true,
+			icon: ['fab', 'twitter'],
+			color: '#1DA1F2'
+		},
+	];
 
 	return (
 		<Layout>
@@ -75,67 +124,23 @@ export default function IndexPage(): React.ReactElement {
 							alignItems='center'
 							spacing={['1.250rem', '1.5rem']}
 						>
-							<Link
-								href='https://www.linkedin.com/in/aureliendupaysdexemple/'
-								isExternal
-							>
-								<FontAwesomeIcon
-									icon={['fab', 'linkedin-in']}
-									size='2x'
-								/>
-							</Link>
-
-							<Link
-								href='https://github.com/SugarDarius'
-								isExternal
-							>
-								<FontAwesomeIcon
-									icon={['fab', 'github']}
-									size='2x'
-								/>
-							</Link>
-
-							<Link
-								href='https://medium.com/@aureliendupdex'
-								isExternal
-							>
-								<FontAwesomeIcon
-									icon={['fab', 'medium']}
-									size='2x'
-								/>
-							</Link>
-
-							<Link
-								href='https://dev.to/azeldvin'
-								isExternal
-							>
-								<FontAwesomeIcon
-									icon={['fab', 'dev']}
-									size='2x'
-								/>
-							</Link>
-
-							<Link
-								href='https://www.behance.net/dupaysaurec9ea'
-								isExternal
-							>
-								<FontAwesomeIcon
-									icon={['fab', 'behance']}
-									size='2x'
-									color='#1769ff'
-								/>
-							</Link>
-
-							<Link
-								href='https://twitter.com/azeldvin'
-								isExternal
-							>
-								<FontAwesomeIcon
-									icon={['fab', 'twitter']}
-									size='2x'
-									color='#1DA1F2'
-								/>
-							</Link>
+							{
+								links.map(({ id, icon, color, ...linkAtts }) => {
+									return (
+										<Link
+											key={id} 
+											{...linkAtts}
+										>
+											<FontAwesomeIcon
+												size='2x'
+												// @ts-ignore
+												icon={icon}
+												color={color}
+											/>
+										</Link>
+									);
+								})
+							}
 						</Stack>
 					</Flex>
 				</Flex>
@@ -153,11 +158,14 @@ export default function IndexPage(): React.ReactElement {
 						placement='left'
 						aria-label={`Use ${isDarkMode ? 'light' : 'dark'} mode`}
 					>
-						<IconButton
-							icon={isDarkMode ? 'sun' : 'moon'}
-							onClick={toggleColorMode}
-							aria-label='Toggle Color Scheme mode button' 
-						/>
+						<WrapperColorSchemeMode>
+							<IconButton
+								icon={isDarkMode ? 'sun' : 'moon'}
+								onClick={toggleColorMode}
+								aria-label='Toggle Color Scheme mode button'
+								isRound
+							/>
+						</WrapperColorSchemeMode>
 					</Tooltip>
 				</Box>
 			</Flex>
