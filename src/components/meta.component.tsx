@@ -21,6 +21,10 @@ export function Meta(props: React.PropsWithChildren<MetaProps>) {
                 {
                     name: 'description',
                     content: description || ''
+                },
+                {
+                    name: 'google-site-verification',
+                    content: 'k8tRezHGyZ8aImjsQhymc4X4G5vCdyqotbp7IRfBQJs'
                 }
             ]}
         />
