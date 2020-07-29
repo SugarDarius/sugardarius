@@ -37,7 +37,8 @@ export default function IndexPage(): React.ReactElement {
 			href: 'https://www.linkedin.com/in/aureliendupaysdexemple/',
 			alt: 'LinkedIn - Aurélien Dupays Dexemple', 
 			isExternal: true,
-			icon: ['fab', 'linkedin-in']
+			icon: ['fab', 'linkedin-in'],
+			color: '#2867B2'
 		},
 		{
 			id: 'github',
