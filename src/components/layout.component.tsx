@@ -14,7 +14,7 @@ export function Layout({ children }) {
     
     return (
         <ThemeProvider theme={theme}>
-             <CSSReset />
+            <CSSReset />
             <ColorModeProvider value={prefersColorScheme}>
                 {children}
             </ColorModeProvider>
