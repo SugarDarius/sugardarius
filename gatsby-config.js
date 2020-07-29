@@ -16,5 +16,6 @@ module.exports = {
 				icon: `src/favicon/favicon.ico`
 			}
 		},
+		`gatsby-plugin-sitemap`,
 	],
 }
