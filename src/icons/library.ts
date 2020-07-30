@@ -5,6 +5,7 @@ import {
     faBehance,
     faTwitter,
     faGithub,
+    faNpm,
     faMedium,
     faDev
 } from '@fortawesome/free-brands-svg-icons';
@@ -15,6 +16,7 @@ library.add(
     faLinkedinIn,
     faTwitter,
     faGithub,
+    faNpm,
     faMedium,
     faDev,
     faHome

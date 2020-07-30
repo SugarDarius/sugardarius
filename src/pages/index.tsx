@@ -51,6 +51,14 @@ export default function IndexPage(): React.ReactElement {
 			color: isDarkMode ? iconDarkModeBaseColor : '#181717',
 		},
 		{
+			id: 'npm',
+			href: 'https://www.npmjs.com/~sugardarius',
+			alt: 'NPM - Aurélien Dupays Dexemple',
+			isExternal: true,
+			icon: ['fab', 'npm'],
+			color: isDarkMode ? iconDarkModeBaseColor : '#CB3837',
+		},
+		{
 			id: 'dev',
 			href: 'https://dev.to/azeldvin',
 			alt: 'DEV - Aurélien Dupays Dexemple',
