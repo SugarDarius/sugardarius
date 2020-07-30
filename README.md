@@ -38,7 +38,7 @@ I extend my interests to graphic design and illustration too!
 I'm always looking for new challenges and projects to build tools, websites, apps and everything in between!
 
 ## My Projects
-Here some project I'm working on 😁:
+Here are some projects I'm working on 😁:
 
 <p>
   <a href="https://github.com/SugarDarius/arks">
