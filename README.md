@@ -52,7 +52,7 @@ Arks is an **opiniated** open source (very important term) [React](https://react
 Rock Paper Scissors Pose Hand is a webapp to play the classic game "Rock Paper Scissors".<br />
 It uses the [TensorflowJS](https://www.tensorflow.org/js) model [posehand](https://github.com/tensorflow/tfjs-models/tree/master/handpose) developed with [Gatsby](https://www.gatsbyjs.org/) with [CharkraUI](https://chakra-ui.com/) and deployed on [Azure Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/).
 
-You check it [here](https://polite-coast-0d9ed1703.azurestaticapps.net/) 🙏<br />
+You can check it [here](https://polite-coast-0d9ed1703.azurestaticapps.net/) 🙏<br />
 And of course PRs are welcome 🤗
 
 ## My Stack
