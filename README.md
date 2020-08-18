@@ -26,7 +26,7 @@ Hello👋,<br />
 I'm Aurélien Dupays Dexemple, a Senior Full Stack (Creative) Developer and this is my personnal GitHub Page.
 
 ## A word about me
-I love to think, create and develop strong and robust users experiences.<br />
+I love to think, create and develop strong and robust users experiences and developers tools!<br />
 I believe in a world where technology and programming are made to enhance to human kind.
 
 So, I'm a JavaScript (ES6+) / TypeScript lover ❤ and Open Source enthusiast 🤗.<br />
