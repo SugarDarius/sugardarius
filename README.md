@@ -201,7 +201,7 @@ Here you can find all my stack I love to work with: <br />
   </a>
 </p>
 <p align="center">
-  <a href="(https://azure.microsoft.com/en-us/" target="blank" style="margin-right: 12px">
+  <a href="https://azure.microsoft.com/en-us/" target="blank" style="margin-right: 12px">
     <img
       src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/microsoftazure.svg"
       alt="Microsoft Azure" 
@@ -229,7 +229,7 @@ Here you can find all my stack I love to work with: <br />
   </a>
 </p>
 <p align="center">
-  <a href="https://storybook.js.org/" target="blank" style="margin-right: 12px">
+  <a href="https://code.visualstudio.com/" target="blank" style="margin-right: 12px">
     <img
       src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/visualstudiocode.svg"
       alt="Visual Studio Code" 
