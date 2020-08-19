@@ -56,27 +56,252 @@ You can check it [here](https://polite-coast-0d9ed1703.azurestaticapps.net/) ðŸ™
 And of course PRs are welcome ðŸ¤—
 
 ## My Stack
-My favourite technologies I love to develop with are :
+Here you can find all my stack I love to work with: <br />
+<br />
 
-* [TypeScript](https://www.typescriptlang.org/index.html)
-* [ReactJS](https://reactjs.org/)
-* [NextJS](https://nextjs.org/)
-* [Gatsby](https://www.gatsbyjs.org/)
-* [Apollo GraphQL](https://www.apollographql.com/)
-* [NestJS](https://nestjs.com/)
-* [NodeJS](https://nodejs.org/en/)
+<p align="center">
+  <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/javascript.svg"
+      alt="JavaScript" 
+      height="34" 
+      width="34"
+      style="margin-right: 12px"
+    />
+  <a href="https://www.typescriptlang.org/index.html" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/typescript.svg"
+      alt="TypeScript" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://reactjs.org/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/react.svg"
+      alt="React" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://www.gatsbyjs.org/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/gatsby.svg"
+      alt="Gatsby" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://nextjs.org/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/next-dot-js.svg"
+      alt="NextJS" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://www.apollographql.com/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/apollographql.svg"
+      alt="Apollo GraphQL" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://nestjs.com/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/nestjs.svg"
+      alt="NestJS" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://nodejs.org/en/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/node-dot-js.svg"
+      alt="Node.JS" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://www.tensorflow.org/js" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/tensorflow.svg"
+      alt="TensorFlow" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+</p>
+<p align="center">
+  <a href="https://gulpjs.com/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/gulp.svg"
+      alt="Gulp" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://webpack.js.org/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/webpack.svg"
+      alt="Webpack" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://eslint.org/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/eslint.svg"
+      alt="ESLint" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://prettier.io/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/prettier.svg"
+      alt="Prettier" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://storybook.js.org/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/storybook.svg"
+      alt="Storybook" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/features/actions" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/githubactions.svg"
+      alt="Github Actions" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://azure.microsoft.com/en-us/services/devops/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/azuredevops.svg"
+      alt="Azure DevOps" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://www.docker.com/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/docker.svg"
+      alt="Docker" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+</p>
+<p align="center">
+  <a href="(https://azure.microsoft.com/en-us/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/microsoftazure.svg"
+      alt="Microsoft Azure" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+</p>
+<p align="center">
+  <a href="https://git-scm.com/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/git.svg"
+      alt="git" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://github.com/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/github.svg"
+      alt="GitHub" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+</p>
+<p align="center">
+  <a href="https://storybook.js.org/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/visualstudiocode.svg"
+      alt="Visual Studio Code" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+</p>
 
-I've a real interest too for the Cloud and CI / CD tools such as : 
+In my early years of my career I've also made my way on databases such as :
+<p align="center">
+  <a href="https://www.microsoft.com/en-us/sql-server" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/microsoftsqlserver.svg"
+      alt="Microsoft SQL Server" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://www.mysql.com/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/mysql.svg"
+      alt="MySQL" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://www.mongodb.com/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/mongodb.svg"
+      alt="MongoDB" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://neo4j.com/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/neo4j.svg"
+      alt="Neo4j" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://firebase.google.com/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/firebase.svg"
+      alt="Firebase" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+</p>
 
-* [Microsoft Azure](https://azure.microsoft.com/en-us/)
-* [Microsoft Azure DevOps](https://azure.microsoft.com/en-us/services/devops/)
-* [Docker](https://www.docker.com/)
-
-In my early years of my career I've made my way on databases such as :
-* [SQL Server](https://www.microsoft.com/en-us/sql-server)
-* [MySQL](https://www.mysql.com/)
-* [MongoDB](https://www.mongodb.com/)
-* [Neo4j](https://neo4j.com/)
+And sometimes I like to do some graphic design or illustrations on:
+<p align="center">
+  <a href="https://www.adobe.com/products/photoshop.html" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/adobephotoshop.svg"
+      alt="Adobe Photoshop" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://www.adobe.com/products/illustrator.html" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/adobeillustrator.svg"
+      alt="Adobe Illustrator" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+</p>
 
 ## You can check me on:
 <p align="center" style="margin-bottom: 4px">
