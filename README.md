@@ -75,6 +75,14 @@ Here you can find all my stack I love to work with: <br />
       width="34" 
     />
   </a>
+  <a href="https://graphql.org/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/graphql.svg"
+      alt="GraphQL" 
+      height="34" 
+      width="34" 
+    />
+  </a>
   <a href="https://reactjs.org/" target="blank" style="margin-right: 12px">
     <img
       src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/react.svg"
@@ -169,6 +177,14 @@ Here you can find all my stack I love to work with: <br />
     <img
       src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/storybook.svg"
       alt="Storybook" 
+      height="34" 
+      width="34" 
+    />
+  </a>
+  <a href="https://jestjs.io/" target="blank" style="margin-right: 12px">
+    <img
+      src="https://raw.githubusercontent.com/SugarDarius/sugardarius/master/medias/img/jest.svg"
+      alt="Jest" 
       height="34" 
       width="34" 
     />
