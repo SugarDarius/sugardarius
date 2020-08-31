@@ -13,6 +13,7 @@ import {
 } from '@chakra-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import { getSocialLinks } from '../data';
 import { 
 	Layout,
 	Meta,
@@ -33,64 +34,7 @@ export default function IndexPage(): React.ReactElement {
 	const WrapperColorSchemeMode = isDarkMode ? DarkMode : LightMode;
 	const iconDarkModeBaseColor = '#ffffff';
 
-	const links = [
-		{
-			id: 'linkedin',
-			href: 'https://www.linkedin.com/in/aureliendupaysdexemple/',
-			alt: 'LinkedIn - Aurélien Dupays Dexemple', 
-			isExternal: true,
-			icon: ['fab', 'linkedin-in'],
-			color: isDarkMode ? iconDarkModeBaseColor : '#2867B2',
-		},
-		{
-			id: 'github',
-			href: 'https://github.com/SugarDarius',
-			alt: 'GitHub - Aurélien Dupays Dexemple',
-			isExternal: true,
-			icon: ['fab', 'github'],
-			color: isDarkMode ? iconDarkModeBaseColor : '#181717',
-		},
-		{
-			id: 'npm',
-			href: 'https://www.npmjs.com/~sugardarius',
-			alt: 'NPM - Aurélien Dupays Dexemple',
-			isExternal: true,
-			icon: ['fab', 'npm'],
-			color: isDarkMode ? iconDarkModeBaseColor : '#CB3837',
-		},
-		{
-			id: 'dev',
-			href: 'https://dev.to/azeldvin',
-			alt: 'DEV - Aurélien Dupays Dexemple',
-			isExternal: true,
-			icon: ['fab', 'dev'],
-			color: isDarkMode ? iconDarkModeBaseColor : '#0A0A0A',
-		},
-		{
-			id: 'medium',
-			href: 'https://medium.com/@aureliendupdex',
-			alt: 'Medium - Aurélien Dupays Dexemple',
-			isExternal: true,
-			icon: ['fab', 'medium'],
-			color: isDarkMode ? iconDarkModeBaseColor : '#12100E',
-		},
-		{
-			id: 'behance',
-			href: 'https://www.behance.net/dupaysaurec9ea',
-			alt: 'Behance - Aurélien Dupays Dexemple',
-			isExternal: true,
-			icon: ['fab', 'behance'],
-			color: '#1769ff',
-		},
-		{
-			id: 'twitter',
-			href: 'https://twitter.com/azeldvin',
-			alt: 'Twitter - Aurélien Dupays Dexemple',
-			isExternal: true,
-			icon: ['fab', 'twitter'],
-			color: '#1DA1F2',
-		},
-	];
+	const socialLinks = getSocialLinks(isDarkMode, iconDarkModeBaseColor);
 
 	return (
 		<Layout>
@@ -145,7 +89,7 @@ export default function IndexPage(): React.ReactElement {
 							spacing={['1.250rem', '1.5rem']}
 						>
 							{
-								links.map(({ id, icon, color, ...linkAtts }) => {
+								socialLinks.map(({ id, icon, color, ...linkAtts }) => {
 									return (
 										<Link
 											key={id} 
