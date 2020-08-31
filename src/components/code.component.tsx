@@ -1,5 +1,7 @@
 import * as React from 'react';
-import { useKey } from 'react-use';
+import { 
+    useKey,
+} from 'react-use';
 import {
     Flex,
     Heading,
@@ -47,7 +49,9 @@ export function Code({ onSuccess }: CodeProps) {
             });
 
             if (isKomando) {
-                onSuccess();
+                setTimeout(() => {
+                    onSuccess();
+                }, 600);
             }
             else {
                 setKcode([]);
