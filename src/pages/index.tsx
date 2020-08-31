@@ -20,6 +20,7 @@ import {
 	Meta,
 	CodeOverlay,
 	Code,
+	FiberCanvas,
 } from '../components';
 import { useSite } from '../hooks';
 
@@ -36,14 +37,19 @@ export default function IndexPage(): React.ReactElement {
 	}, [colorMode]);
 	
 	useKey(' ', () => {
-		setShowCodeOverlayState(true);
-	}, undefined, []);
+		if(!codeSuccess) {
+			setShowCodeOverlayState(true);
+		}
+	}, undefined, [codeSuccess]);
 
 	useKey('Escape', () => {
 		if (showCodeOverlayState) {
 			setShowCodeOverlayState(false);
 		}
-	}, undefined, [showCodeOverlayState]);
+		else if (codeSuccess) {
+			setCodeSuccessState(false);
+		}
+	}, undefined, [showCodeOverlayState, codeSuccess]);
 
 	// gatsby build issue workaround with chakra-ui
 	const WrapperColorSchemeMode = isDarkMode ? DarkMode : LightMode;
@@ -71,7 +77,16 @@ export default function IndexPage(): React.ReactElement {
 					alignItems='center'
 					justifyContent='center'
 				>
-					<Flex position='relative' mr={[0, '0.625rem']} mb={['0.625rem', 0]}>
+					{
+						codeSuccess ? (
+							<FiberCanvas isDarkMode />
+						) : null
+					}
+					<Flex 
+						position='relative' 
+						mr={[0, '0.625rem']} 
+						mb={['0.625rem', 0]}
+					>
 						<img
 							src='/images/logo.png'
 							alt='Aurélien Dupays Dexemple logo'
