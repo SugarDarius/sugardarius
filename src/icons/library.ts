@@ -7,9 +7,15 @@ import {
     faGithub,
     faNpm,
     faMedium,
-    faDev
+    faDev,
 } from '@fortawesome/free-brands-svg-icons';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { 
+    faHome,
+    faArrowCircleDown,
+    faArrowCircleLeft,
+    faArrowCircleRight,
+    faArrowCircleUp,
+} from '@fortawesome/free-solid-svg-icons';
 
 library.add(
     faBehance,
@@ -19,5 +25,9 @@ library.add(
     faNpm,
     faMedium,
     faDev,
-    faHome
+    faHome,
+    faArrowCircleDown,
+    faArrowCircleLeft,
+    faArrowCircleRight,
+    faArrowCircleUp,
 );
