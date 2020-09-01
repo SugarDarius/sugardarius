@@ -76,7 +76,7 @@ export function Particles({ count }: ParticlesProps) {
         >
             <sphereBufferGeometry
                 attach='geometry'
-                args={[0.2, 16, 16]}
+                args={[0.2, 32, 32]}
             />
             <meshPhongMaterial
                 attach='material'
