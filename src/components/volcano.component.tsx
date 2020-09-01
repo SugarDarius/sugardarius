@@ -4,15 +4,16 @@ import { MeshDistortMaterial } from 'drei';
 
 export function Volcano() {
     const meshRef = React.useRef<any>();
-    let t = React.useMemo(() => 0, []);
-    const r = React.useMemo(() => 0.2, []);
-    const f = React.useMemo(() => 20 + Math.random() * 10, []);
+    let a = React.useMemo(() => 0, []);
+    const s = React.useMemo(() => (2 * Math.PI) / 4, []);
+    const r = React.useMemo(() => 20, []);
 
     useFrame(() => {
-        meshRef.current.position.x = meshRef.current.position.x + r * Math.cos(t);
-        meshRef.current.position.y = meshRef.current.position.y + r * Math.sin(t);
+        a = a + s * 0.015;
 
-        t = (t + Math.PI / 360) % (Math.PI * 2);
+        meshRef.current.position.x = Math.cos(a) * r;
+        meshRef.current.position.y = Math.sin(a) * r;
+        meshRef.current.position.z = Math.cos(a) * r;
     });
 
     return (

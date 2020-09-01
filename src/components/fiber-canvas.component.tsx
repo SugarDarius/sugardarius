@@ -24,7 +24,7 @@ export function FiberCanvas(props: FiberCanvasProps) {
                 camera={{ fov: 75, position: [0, 0, 70] }}
             >
                 <ambientLight intensity={1.1} />
-                <fog attach='fog' args={['white', 50, 190]} />
+                <fog attach='fog' args={['rgba(99, 179, 237, 93)', 1, 3000]} />
                 <pointLight distance={100} intensity={4} color='white' />
                 <pointLight distance={40} intensity={8} color='lightblue' />
                 <Particles count={1000} />
