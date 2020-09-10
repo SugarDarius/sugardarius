@@ -55,7 +55,7 @@ It uses the [TensorflowJS](https://www.tensorflow.org/js) model [posehand](https
 You can check it [here](https://polite-coast-0d9ed1703.azurestaticapps.net/) 🙏<br />
 And of course PRs are welcome 🙏🏻🤗
 
-### [React Use Algos](https://github.com/SugarDarius/react-use-algos)
+### [React Use Algos 💪🏻💪🏻💪🏻](https://github.com/SugarDarius/react-use-algos)
 `React Use Algos` is an [npm](https://www.npmjs.com/) package which proposes you a libray of [React Hooks](https://reactjs.org/docs/hooks-intro.html) to use some collections, formulas and algos 💪🏻
 
 This project is made to be open source and driven by the community so please feel free to send your feed back, ideas and of course your PRs are welcome 🙏🏻🤗
