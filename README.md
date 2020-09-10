@@ -57,7 +57,7 @@ And of course PRs are welcome 🙏🏻🤗
 
 ### [React Use Algos 💪🏻💪🏻💪🏻](https://github.com/SugarDarius/react-use-algos)
 `React Use Algos` is an [npm](https://www.npmjs.com/) package which proposes you a libray of [React Hooks](https://reactjs.org/docs/hooks-intro.html) to use some collections, formulas and algos 💪🏻<br />
-This package is build and publish on the npm registry with [GithubActions](https://github.com/features/actions) 😜
+This package is build and publish on the npm registry with [Github Actions](https://github.com/features/actions) 😜
 
 This project is made to be open source and driven by the community so please feel free to send your feed back, ideas and of course your PRs are welcome 🙏🏻🤗
 
