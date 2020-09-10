@@ -46,14 +46,21 @@ Here are some projects I'm working on 😁:
   </a>
 </p>
 
-Arks is an **opiniated** open source (very important term) [React](https://reactjs.org/) framework for creating, developing, building and shipping isomorphics apps built on top of [React Router](https://reacttraining.com/react-router/web/guides/quick-start) and [Apollo GraphQL](https://www.apollographql.com/)
+### [Arks 🙌🏻🤝👌🏻](https://github.com/SugarDarius/arks)
+`Arks` is an **opiniated** open source (very important term) [React](https://reactjs.org/) framework for creating, developing, building and shipping isomorphics apps built on top of [React Router](https://reacttraining.com/react-router/web/guides/quick-start) and [Apollo GraphQL](https://www.apollographql.com/)
 
 ### [Rock Paper Scissors Pose Hand ✋✊🤞](https://github.com/SugarDarius/rock-paper-scissors-pose-hand)
-Rock Paper Scissors Pose Hand is a webapp to play the classic game "Rock Paper Scissors".<br />
+`Rock Paper Scissors Pose Hand` is a webapp to play the classic game "Rock Paper Scissors".<br />
 It uses the [TensorflowJS](https://www.tensorflow.org/js) model [posehand](https://github.com/tensorflow/tfjs-models/tree/master/handpose) developed with [Gatsby](https://www.gatsbyjs.org/) with [CharkraUI](https://chakra-ui.com/) and deployed on [Azure Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/).
 
 You can check it [here](https://polite-coast-0d9ed1703.azurestaticapps.net/) 🙏<br />
 And of course PRs are welcome 🙏🏻🤗
+
+<p>
+  <a href="https://github.com/SugarDarius/react-use-algos">
+    <img width="200" align="center" src="https://raw.githubusercontent.com/SugarDarius/react-use-algos/master/medias/img/logo.png" />
+  </a>
+</p>
 
 ### [React Use Algos 💪🏻💪🏻💪🏻](https://github.com/SugarDarius/react-use-algos)
 `React Use Algos` is an [npm](https://www.npmjs.com/) package which proposes you a libray of [React Hooks](https://reactjs.org/docs/hooks-intro.html) to use some collections, formulas and algos 💪🏻<br />
