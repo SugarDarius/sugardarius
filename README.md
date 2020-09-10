@@ -53,7 +53,12 @@ Rock Paper Scissors Pose Hand is a webapp to play the classic game "Rock Paper S
 It uses the [TensorflowJS](https://www.tensorflow.org/js) model [posehand](https://github.com/tensorflow/tfjs-models/tree/master/handpose) developed with [Gatsby](https://www.gatsbyjs.org/) with [CharkraUI](https://chakra-ui.com/) and deployed on [Azure Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/).
 
 You can check it [here](https://polite-coast-0d9ed1703.azurestaticapps.net/) 🙏<br />
-And of course PRs are welcome 🤗
+And of course PRs are welcome 🙏🏻🤗
+
+### [React Use Algos](https://github.com/SugarDarius/react-use-algos)
+`React Use Algos` is an [npm](https://www.npmjs.com/) package which proposes you a libray of [React Hooks](https://reactjs.org/docs/hooks-intro.html) to use some collections, formulas and algos 💪🏻
+
+This project is made to be open source and driven by the community so please feel free to send your feed back, ideas and of course your PRs are welcome 🙏🏻🤗
 
 ## My Stack
 Here you can find all my stack I love to work with: <br />
