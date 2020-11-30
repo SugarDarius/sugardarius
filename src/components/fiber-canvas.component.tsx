@@ -20,9 +20,7 @@ export type FiberCanvasProps = {
 export function FiberCanvas(props: FiberCanvasProps) {
     return (
         <FiberCanvasContainer>
-            <Canvas
-                camera={{ fov: 75, position: [0, 0, 70] }}
-            >
+            <Canvas camera={{ fov: 75, position: [0, 0, 70] }}>
                 <ambientLight intensity={1.1} />
                 <fog attach='fog' args={['rgba(99, 179, 237, 93)', 1, 3000]} />
                 <pointLight distance={100} intensity={4} color='white' />

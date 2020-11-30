@@ -7,8 +7,7 @@ module.exports = {
 	},
 	plugins: [
 		`gatsby-plugin-react-helmet`,
-		`gatsby-plugin-emotion`,
-		`gatsby-plugin-chakra-ui`,
+		`@chakra-ui/gatsby-plugin`,
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
 		{

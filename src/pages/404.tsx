@@ -3,29 +3,17 @@ import { Link } from 'gatsby';
 import { 
 	Flex, 
 	Link as CLink, 
-	Button, 
-	DarkMode,
-	LightMode,
-	useColorMode
-} from '@chakra-ui/core';
+	Button,
+} from '@chakra-ui/react';
 
+import '../icons/library';
 import { 
-	Layout,
 	Meta
 } from '../components';
 
 export default function NotFoundPage(): React.ReactElement {
-	const { colorMode } = useColorMode();
-	const [isDarkMode, setDarkState] = React.useState<boolean>(false);
-	React.useEffect(() => {
-		setDarkState(colorMode === 'dark');
-	}, [colorMode]);
-
-	// gatsby build issue workaround with chakra-ui
-	const WrapperColorSchemeMode = isDarkMode ? DarkMode : LightMode;
-
 	return (
-    	<Layout>
+    	<React.Fragment>
 			<Meta title='404!' />
 			<Flex
 				position='relative'
@@ -48,13 +36,11 @@ export default function NotFoundPage(): React.ReactElement {
 					mt='1rem'
 					style={{ textDecoration: 'none' }}
 				>
-					<WrapperColorSchemeMode>
-						<Button>
-							Go to the home page!
-						</Button>
-					</WrapperColorSchemeMode>
+					<Button>
+						Go to the home page!
+					</Button>
 				</CLink>
 			</Flex>
-		</Layout>
+		</React.Fragment>
 	);
 }

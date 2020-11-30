@@ -7,7 +7,7 @@ import {
     Heading,
     Stack,
     Text,
-} from '@chakra-ui/core';
+} from '@chakra-ui/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconName } from '@fortawesome/free-solid-svg-icons';
 

@@ -8,15 +8,17 @@ import {
 	Box,
 	IconButton,
 	Tooltip,
-	DarkMode,
-	LightMode,
-	useColorMode,
-} from '@chakra-ui/core';
+	useColorMode
+} from '@chakra-ui/react';
+import {
+    MoonIcon,
+    SunIcon,
+} from '@chakra-ui/icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import '../icons/library';
 import { getSocialLinks } from '../data';
-import { 
-	Layout,
+import {
 	Meta,
 	CodeOverlay,
 	Code,
@@ -28,13 +30,8 @@ export default function IndexPage(): React.ReactElement {
 	const site = useSite();
 	const { colorMode, toggleColorMode } = useColorMode();
 
-	const [isDarkMode, setDarkState] = React.useState<boolean>(false);
 	const [showCodeOverlayState, setShowCodeOverlayState] = React.useState<boolean>(false);
 	const [codeSuccess, setCodeSuccessState] = React.useState<boolean>(false);
-
-	React.useEffect(() => {
-		setDarkState(colorMode === 'dark');
-	}, [colorMode]);
 	
 	useKey(' ', () => {
 		if(!codeSuccess) {
@@ -51,8 +48,7 @@ export default function IndexPage(): React.ReactElement {
 		}
 	}, undefined, [showCodeOverlayState, codeSuccess]);
 
-	// gatsby build issue workaround with chakra-ui
-	const WrapperColorSchemeMode = isDarkMode ? DarkMode : LightMode;
+	const isDarkMode = colorMode === 'dark';
 	const iconDarkModeBaseColor = '#ffffff';
 
 	const socialLinks = getSocialLinks(isDarkMode, iconDarkModeBaseColor);
@@ -62,14 +58,13 @@ export default function IndexPage(): React.ReactElement {
 	};
 
 	return (
-		<Layout>
+		<React.Fragment>
 			<Meta
 				title='Hello!'
 				titleTemplate={site.siteMetadata.title}
 				description={site.siteMetadata.description}
 			/>
-			<WrapperColorSchemeMode>
-				<Flex
+			<Flex
 					position='relative'
 					direction={['column', 'row']}
 					width='100vw'
@@ -110,7 +105,7 @@ export default function IndexPage(): React.ReactElement {
 						>
 							Aurélien Dupays Dexemple,<br />
 						I'm a Senior Full Stack (Creative) Developer.
-					</Heading>
+						</Heading>
 						<Flex
 							position='relative'
 							direction='row'
@@ -158,7 +153,7 @@ export default function IndexPage(): React.ReactElement {
 							aria-label={`Use ${isDarkMode ? 'light' : 'dark'} mode`}
 						>
 							<IconButton
-								icon={isDarkMode ? 'sun' : 'moon'}
+								icon={isDarkMode ? <SunIcon />: <MoonIcon />}
 								onClick={toggleColorMode}
 								aria-label='Toggle Color Scheme mode button'
 								isRound
@@ -177,7 +172,6 @@ export default function IndexPage(): React.ReactElement {
 						) : null
 					}
 				</Flex>
-			</WrapperColorSchemeMode>
-		</Layout>
+		</React.Fragment>
 	);
 }
