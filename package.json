@@ -16,6 +16,11 @@
 		"name": "Aurélien Dupays Dexemple",
 		"url": "https://github.com/SugarDarius"
 	},
+	"engines": {
+		"node": ">=15.x.x",
+		"npm": ">=7.x.x",
+		"yarn": "yarn is not supported - please use npm"
+	},
 	"scripts": {
 		"build": "gatsby build",
 		"develop": "gatsby develop -p 8080 -o",
