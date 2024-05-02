@@ -1,27 +1,20 @@
-Hey, I'm Aurélien 👋
-====================
+# Hey, I'm Aurélien 👋
 
-Senior and Creative Software Engineer
--------------------------------------
+## Senior and Creative Software Engineer
 
 <div style="display:flex;align-items:center;margin-bottom:16px;gap:4px;">
 Crafting interfaces and products with <a href="https://react.dev/" target="_blank" rel="noreferrer" style="display:inline-flex;align-items:center;gap:4px;"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" alt="React" width="16" height="16"/> React</a> and <a href="https://nextjs.org/" target="_blank" rel="noreferrer" style="display:inline-flex;align-items:center;gap:4px;"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg" alt="Next.js" width="16" height="16" style="display:inline-flex;"> Next.js</a> from 🇫🇷
 </div>
 
-- 🧑🏻‍💻  frontend cloud
-- 🌎  remote club
+- 🧑🏻‍💻 frontend cloud
+- 🌎 remote club
 - 🖥️  see my portfolio at [aureliendupaysdexemple.com](http://aureliendupaysdexemple.com)
 
 ### Tech Stack
 
 <div style="display:flex;flex-direction:row;align-items:center;gap:8px;">
-<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg" width="36" height="36" alt="VS Code" />
-</a>
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" />
-</a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg" width="36" height="36" alt="VS Code" /></a><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" />
+</a><a href="https://reactjs.org/" target="_blank" rel="noreferrer">
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" />
 </a>
 <a href="https://nextjs.org/docs" target="_blank" rel="noreferrer">
