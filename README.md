@@ -6,8 +6,8 @@
 Crafting interfaces and products with <a href="https://react.dev/" target="_blank" rel="noreferrer" style="display:inline-flex;align-items:center;gap:4px;"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" alt="React" width="16" height="16"/> React</a> and <a href="https://nextjs.org/" target="_blank" rel="noreferrer" style="display:inline-flex;align-items:center;gap:4px;"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg" alt="Next.js" width="16" height="16" style="display:inline-flex;"> Next.js</a> from 🇫🇷
 </div>
 
-- 🧑🏻‍💻 frontend cloud
-- 🌎 remote club
+- 🧑🏻‍💻  frontend cloud
+- 🌎  remote club
 - 🖥️  see my portfolio at [aureliendupaysdexemple.com](http://aureliendupaysdexemple.com)
 
 ### Tech Stack
