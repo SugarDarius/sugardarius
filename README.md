@@ -1,6 +1,6 @@
 # Hey, I'm Aurélien 👋
 
-## Senior and Creative Software Engineer
+## Creative Software Engineer
 
 <div style="display:flex;align-items:center;margin-bottom:16px;gap:4px;">
 Crafting interfaces and products with <a href="https://react.dev/" target="_blank" rel="noreferrer" style="display:inline-flex;align-items:center;gap:4px;"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" alt="React" width="16" height="16"/> React</a> and <a href="https://nextjs.org/" target="_blank" rel="noreferrer" style="display:inline-flex;align-items:center;gap:4px;"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg" alt="Next.js" width="16" height="16" style="display:inline-flex;"> Next.js</a> from 🇫🇷
