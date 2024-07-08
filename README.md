@@ -10,6 +10,8 @@ Crafting interfaces and products with <a href="https://react.dev/" target="_blan
 - 🌎  remote club
 - 🖥️  see my portfolio at [aureliendupaysdexemple.com](http://aureliendupaysdexemple.com)
 
+Currently at [Liveblocks](https://liveblocks.io/) 🚀
+
 ### Tech Stack
 
 <div style="display:flex;flex-direction:row;align-items:center;gap:8px;">
