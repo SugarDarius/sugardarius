@@ -8,7 +8,7 @@ Crafting interfaces and products with <a href="https://react.dev/" target="_blan
 
 - 🧑🏻‍💻  frontend cloud
 - 🌎  remote club
-- 🖥️  see my portfolio at [aureliendupaysdexemple.com](http://aureliendupaysdexemple.com)
+- 🖥️  see my personal website at [aureliendupaysdexemple.com](http://aureliendupaysdexemple.com)
 
 <!-- Currently at [Liveblocks](https://liveblocks.io/) 🚀 -->
 
